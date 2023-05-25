@@ -153,12 +153,35 @@ header{
     .show-menu nav{
         display: block;
     }
-    .nav ul{
+    nav ul{
         flex-direction: column;
     }
-    .nav ul li{
+    nav ul li{
         text-align: center;
         padding: 0.8rem;
         
     }
+}
+
+/* Header */
+
+/* Main Content */
+.gray-background{
+    background-color: #444;
+}
+
+.page-inner-content{
+    max-width: 1280px;
+    margin: 0 auto;
+}   
+
+.cols{
+    display: grid;
+    justify-content: space-evenly;
+    padding: 4rem 1rem;
+}
+
+.cols-3{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
 }
